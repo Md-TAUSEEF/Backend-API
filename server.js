@@ -12,7 +12,7 @@ const connectdb = require("./Databaseconnection/Database");
 const taskrouter = require("./Router/task_router");
 
 const corsOptions = {
-  origin: [""],
+  origin: ["https://deploy-mern-frontend-tau.vercel.app"],
   methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
   credentials: true,
 };
